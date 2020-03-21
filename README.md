@@ -1,68 +1,114 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PPC Codename: Criptonic
 
-## Available Scripts
+Context:
+The effects of doing recreational activities on one’s own mental health are almost priceless in the medical field. With a quick Google search, you can find countless studies stretching back decades on how doing recreational activities can improve one’s life. We don’t think it should be hard to have access to this kind of life and by connecting qualified people for the right people we could do wonders for not only the disabled population but the surrounding community too.we also want to put emphasis on friendship and not a client with a customer. This is purely a mutual experience with two people having a fun time.
 
-In the project directory, you can run:
+This is intended to be a 501(c) non-profit.
 
-### `npm start`
+Hypothesis:
+By creating a central location for charities to showcase their events and people who enjoy working those events with the disabled community. We hope to encourage regularly scheduled recreational activities outside of these events. We want to encourage friendship and trustworthiness between two people in the name of better mental health.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Target Audience:
+Disabled:
+Care facilities
+Adaptive rehabs
+Local charities
+Adaptive gyms
+Hospitals
+Vocational rehabilitation programs
+Nondisabled:
+Local charities
+Medical students
+Therapist
+Service animal workers
+Family
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Onboarding qualified non-disabled people:
+We plan to use already in place recreational therapy charities local to the Phoenix and Arizona area. Potentially, we could reach out to nursing schools and therapy schools for volunteers. Facilities such as Ability 360 will be crucial to the success of this.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+PRD Codename: Criptonic
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Potential Names:
+Recreationiends
+Fun'ensemble
+Fun'amis
+Party Potes
+Syncopains
+Syncpotes
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Problem:
+Being someone who has been disabled for his entire life, a common problem I have faced is finding someone whom I feel comfortable with to do recreational activities. This person generally does not need to be highly qualified in the medical field but to be acquainted with it. With this application, we hope to connect someone who has experience working with disabilities to someone who is disabled.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+With this app though, we want to stress a mutually shared experience. The nondisabled person is not there just to ensure safety and supervision! We are looking for shared interest and mutual enjoyment from shared experience.
 
-### `npm run eject`
+Real-life examples and use cases:
+Daily walks to get out of the house and/or care facility.
+Finding someone trustworthy enough to go to a concert with.
+Pokémon Go events.
+Checking out a local museum or park.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+How is this being solved already:
+Local charities have events planned.
+We plan to centralize this and potentially get into the view of more people.
+Facebook and other social media platforms.
+This usually involves being a part of certain groups. We plan to have a vetting process for onboarding nondisabled people. In hopes that it will make it safer than trusting someone on Facebook.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Components & Containers:
+Home
+Not logged in? > please sign in/up
+Logged in? > Dashboard
+Login
+Email and password
+Google auth
+Facebook auth
+Info needed:
+Email
+Phone number
+Contacts
+Profile picture
+Profile
+Short bio
+Small profile picture
+Friend request button
+DM button
+Custom banner
+Dashboard
+Friends 
+People that connect and intend to do a recreational activity
+Calendar
+Events you have planned with your designated friend
+Community events 
+Toggled on and off
+Information
+Disabled?
+Preferred interest
+Name of disease (can be hidden)
+Emergency Contacts (can be hidden)
+List of medications (can be hidden)
+Gender
+Necessary medical equipment (ex. Wheelchair, oxygen, walker, etc)
+Short bio
+Favorites
+Transportation needs
+Age
+Language
+Not Disabled?
+Preferred interest
+Have you worked with a disability?
+List experience
+Gender
+Age
+Volunteer?
+Organization
+Short bio
+Transportation
+Favorites
+Language
+Community
+Public events
+Local charity events
+Sponsors
+Resources
+Report abuse
