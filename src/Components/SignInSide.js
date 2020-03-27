@@ -29,6 +29,7 @@ function Copyright() {
 const useStyles = makeStyles((theme) => ({
   root: {
     height: '100vh',
+    
   },
   image: {
     backgroundImage: 'url(https://i.imgur.com/gLcir81.jpg)',
@@ -55,7 +56,7 @@ const useStyles = makeStyles((theme) => ({
   submit: {
     margin: theme.spacing(3, 0, 2),
   },
-}));
+} ));
 
 export default function SignInSide() {
   const classes = useStyles();
