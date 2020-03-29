@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
-
-import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
+import TextField from "@material-ui/core/TextField";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Checkbox from "@material-ui/core/Checkbox";
-
 import { makeStyles } from "@material-ui/core/styles";
+
+
 
 const useStyles = makeStyles(theme => ({
   submit: {
@@ -13,8 +13,9 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export const SignUp = () => {
+export const SignIn = () => {
   const classes = useStyles();
+
   return (
     <Fragment>
       <TextField
@@ -39,23 +40,9 @@ export const SignUp = () => {
         id="password"
         autoComplete="current-password"
       />
-      <TextField
-        variant="outlined"
-        margin="normal"
-        required
-        fullWidth
-        name="confirm-password"
-        label="Confirm Password"
-        type="confirm-password"
-        id="confirm-password"
-      />
       <FormControlLabel
         control={<Checkbox value="remember" color="primary" />}
-        label="Want to recieve our newsletter?"
-      />
-      <FormControlLabel
-        control={<Checkbox value="ToS" color="primary" />}
-        label="Agree to our Terms of Service?"
+        label="Remember me"
       />
       <Button
         type="submit"
@@ -64,8 +51,8 @@ export const SignUp = () => {
         color="primary"
         className={classes.submit}
       >
-        Sign Up!
+        Sign In
       </Button>
-    </Fragment>
+      </Fragment>
   );
-};
+}
